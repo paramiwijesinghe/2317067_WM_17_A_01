@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container-main{
+    background-color:rgb(250, 247, 247);
+}
+
+.container1{
+  
+    
+}
+.container2{
+    padding:250px 25px 10px 200px ;
+}
+.container2 >h1{
+    color: rgb(6, 111, 216);
+}
+
+.container3{
+    background-color: white;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 900px;
+    top: 200px;
+    right: 2px;
+    bottom: 1px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 8px 16px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+
+}
+
+form input{
+    height: 55px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    padding: 0 14px;
+}
+
+::placeholder{
+    color: #777;
+    font-size: 1.063rem;
+
+}
+
+/* Add styles for the custom-login class to make the button blue and full-width */
+.custom-login {
+    background-color: #1877f2; /* Facebook blue color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 6px;
+    padding: 15px 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+    width: 100%; /* Make the button full-width */
+    text-align: center; /* Center the button text */
+}
+
+.custom-login:hover {
+    background-color: #0d65d9; /* Darker blue on hover */
+}
+
+
+
+form a{
+    text-decoration: none;
+}
+
+/* Style the .forgot class similar to the .login class */
+.forgot {
+    color: #1877f2; /* Facebook blue color */
+    border: none;
+    border-radius: 6px;
+    padding: 15px 0;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px; /* Adjust the top margin to align with the "Log In" button */
+}
+
+.forgot:hover {
+    background: #00008B; /* Darker blue on hover */
+    color: #fff; /* Text color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Style the .create-account class to add a green border and center-align */
+.create-account {
+   background-color: #008000; /* Facebook blue color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 6px;
+    padding: 15px 26px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+    width: 120%; /* Make the button full-width */
+    text-align: center; /* Center the button text */
+}
+
+.create-account:hover {
+    background-color: #006400; /* Darker blue on hover */
+}
+
+
+
+
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button a{
+    padding: 15px 20px;
+    background: #42b72a;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.063rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.button a:hover{
+    background: #3ba626;
+}
